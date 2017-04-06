@@ -1,0 +1,24 @@
+# Site settings
+title: Gesundheitspolicy
+header-img: img/home-bg.jpg
+email: gesundheitspolicy@gmail.com
+copyright_name: Gesundheitspolicy
+description: "An outsider's journey through the American health care system"
+baseurl: ""
+url: "http://gesundheitspolicy.com"
+twitter_username: mjpany
+github_username:  gesundheitspolicy
+facebook_username:
+email_username:  gesundheitspolicy@gmail.com
+
+# Google Analytics
+google_tracking_id: UA-74345108-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
